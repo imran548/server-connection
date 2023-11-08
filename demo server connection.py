@@ -3,7 +3,6 @@ import warnings
 warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 import base64
 import requests
-from amazon_paapi import AmazonApi
 
 Base_url = "https://python.local/wp-json"
 media_url =f'{Base_url}/wp/v2/media'
